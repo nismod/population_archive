@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with PopProjection.  If not, see <http://www.gnu.org/licenses/>.
 
-..
+
 __author__ = "nick"
 __date__ = "$Jun 23, 2011 4:03:49 PM$"
 
