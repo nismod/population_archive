@@ -1,0 +1,74 @@
+"Population and migration > Population > Projections > Local authority > 2011-based > Population projections by local authority and year"
+""
+
+Filters:
+Age: All ages
+Gender: Persons
+
+"","",2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036
+"Wales","",3063758,3076656,3089894,3103436,3117239,3131172,3145084,3158868,3172440,3185728,3198667,3211195,3223259,3234791,3245771,3256174,3265967,3275214,3283974,3292249,3300077,3307490,3314505,3321150,3327477,3333536
+"Wales","Isle of Anglesey",69913,69963,70018,70075,70128,70178,70223,70256,70273,70274,70257,70223,70169,70092,69993,69877,69743,69593,69430,69252,69065,68872,68673,68470,68263,68053
+"","Gwynedd",121523,121803,122104,122425,122765,123126,123506,123905,124319,124750,125195,125654,126122,126598,127077,127557,128033,128502,128963,129413,129851,130277,130691,131089,131471,131847
+"","Conwy",115326,115461,115604,115753,115909,116065,116217,116362,116494,116611,116708,116784,116836,116862,116860,116831,116774,116692,116590,116466,116320,116153,115967,115763,115543,115307
+"","Denbighshire",93919,94309,94713,95126,95550,95980,96411,96837,97256,97662,98053,98427,98780,99109,99416,99698,99957,100192,100407,100605,100787,100953,101108,101250,101381,101507
+"","Flintshire",152666,153038,153403,153763,154115,154453,154772,155066,155329,155561,155760,155923,156049,156135,156179,156183,156149,156079,155977,155844,155683,155497,155287,155056,154807,154538
+"","Wrexham",135070,136337,137617,138905,140197,141488,142768,144034,145284,146513,147723,148906,150063,151196,152305,153393,154458,155506,156540,157562,158574,159576,160566,161548,162526,163500
+"","Powys",133071,133382,133692,133997,134302,134600,134891,135171,135432,135676,135897,136090,136248,136368,136449,136489,136485,136440,136355,136226,136055,135848,135601,135311,134985,134628
+"","Ceredigion",75293,75446,75601,75764,75935,76113,76298,76492,76693,76905,77117,77331,77543,77751,77950,78136,78309,78468,78613,78745,78860,78962,79051,79127,79191,79246
+"","Pembrokeshire",122613,122933,123265,123603,123946,124288,124621,124942,125250,125536,125798,126034,126239,126408,126544,126646,126713,126754,126766,126753,126719,126663,126585,126487,126372,126242
+"","Carmarthenshire",183961,184888,185847,186832,187839,188859,189882,190902,191910,192902,193874,194818,195729,196605,197440,198237,198992,199710,200397,201051,201678,202276,202848,203396,203925,204441
+"","Swansea",238691,239936,241220,242540,243892,245271,246663,248060,249456,250848,252232,253606,254962,256290,257589,258855,260084,261283,262455,263596,264710,265802,266869,267910,268929,269929
+"","Neath Port Talbot",139880,140081,140303,140543,140798,141058,141317,141562,141791,141999,142185,142344,142478,142585,142664,142716,142740,142737,142710,142665,142603,142527,142438,142337,142227,142108
+"","Bridgend",139410,140141,140867,141589,142307,143016,143711,144382,145032,145653,146242,146794,147309,147789,148226,148621,148976,149294,149582,149841,150078,150296,150500,150690,150864,151023
+"","The Vale of Glamorgan",126679,127138,127594,128049,128499,128944,129379,129803,130213,130605,130978,131331,131663,131974,132264,132529,132765,132977,133163,133322,133453,133556,133632,133686,133718,133727
+"","Cardiff",345442,349536,353713,357982,362339,366761,371230,375737,380277,384849,389458,394098,398760,403439,408123,412801,417460,422101,426728,431334,435921,440484,445026,449548,454051,458544
+"","Rhondda, Cynon, Taf",234373,234648,234938,235243,235559,235876,236180,236465,236722,236942,237126,237269,237366,237420,237427,237389,237307,237191,237044,236871,236676,236461,236225,235974,235713,235439
+"","Merthyr Tydfil",58851,59079,59319,59567,59821,60077,60329,60572,60804,61024,61226,61409,61574,61722,61853,61967,62063,62144,62213,62270,62316,62353,62383,62406,62423,62434
+"","Caerphilly",178782,179212,179653,180103,180553,180994,181416,181811,182174,182499,182781,183020,183216,183365,183469,183531,183553,183538,183489,183407,183297,183156,182988,182794,182575,182334
+"","Blaenau Gwent",69812,69684,69576,69482,69401,69324,69250,69169,69081,68981,68867,68736,68586,68416,68228,68022,67798,67558,67303,67034,66751,66458,66154,65843,65528,65209
+"","Torfaen",91190,91326,91477,91641,91816,91996,92173,92341,92499,92643,92769,92870,92951,93006,93037,93044,93028,92992,92935,92862,92774,92674,92567,92450,92330,92204
+"","Monmouthshire",91508,91624,91734,91836,91933,92024,92105,92179,92243,92296,92338,92365,92376,92366,92334,92280,92202,92100,91973,91819,91637,91429,91192,90928,90641,90334
+"","Newport",145785,146690,147634,148617,149634,150679,151744,152821,153907,154998,156084,157164,158237,159298,160345,161373,162377,163364,164342,165310,166268,167217,168155,169087,170013,170941
+
+
+
+Metadata:
+"Title","2011-based local authority population projections for Wales, 2011 to 2036"
+"Author","Welsh Government"
+"Notes 1","Last update: July 2013
+Was added to StatsWales: July 2013
+
+Next update: Will be replaced by a future projection
+Will be added to StatsWales: Will be replaced by a future projection
+
+Source: 2011-based projections for local authorities in Wales, Welsh Government
+Contact: stats.popcensus@wales.gsi.gov.uk/ ystadegau.poblogaeth@cymru.gsi.gov.uk
+
+This dataset provides population projections for local authorities in Wales by gender, single year of age and each year from the base year of 2011, through the projection period to 2036. This is the third set of population projections published for the 22 local authorities in Wales, but the first set to take into account the results of the 2011 Census.
+
+Population projections provide estimates of the size of the future population, and are based on assumptions about births, deaths and migration. The assumptions are based on past trends. Projections only indicate what may happen should the recent trends continue. Projections done in this way do not make allowances for the effects of local or central government policies on future population levels, distribution and change.
+
+The 2011 population estimates have been used as the base for the local authority projections. The projected population is for 30 June each year. The base population estimates are based on the usually resident population. Usual residents away from home temporarily are included, but visitors are excluded. Students are counted at their term-time address. It should also be noted that the UN definition of an international migrant is used - those changing country of residence for a period of at least 12 months. Short-term migrants (eg migrant workers from Eastern European countries) are not counted in the population estimates and hence are not included in the population projections.
+
+The projections are based on an assumed pattern of migration based on projecting forward the average migration patterns over the last five years.
+
+Four migration variants are also published covering different migration scenarios, ranging from a zero migration estimate, to a low estimate, to a high estimate. A further estimate based on projecting forward the average migration patterns over the last ten years is also available (the variants are in a separate dataset in the same area of StatsWales).
+
+Data are rounded independently to the nearest whole number and may not add exactly.
+
+Note that the projections become increasingly uncertain the further we try to look into the future.
+
+Also note that these figures differ from the Wales data in the national population projections produced by the Office for National Statistics because the key aim of the local authority population projections is to produce robust local authority population projections for Wales, which reflect local trends in recent years while the main purpose of the national projections is to produce robust population projections for Wales which reflect national trends in recent years.
+
+The national projections and the local authority projections are different for two main reasons:
+1. The methodology used to produce assumptions in the local authority projections are different to those used in the national projections. Some of these are due to slightly different data sources.
+
+Also, although one set of assumptions may fit well for a national trend, using similar assumptions may not always produce feasible results for all local authority areas because of the different nature and trends between local authorities.
+
+2. The geographical level for which the assumptions are based and applied is also important. For example, it is not appropriate to sum local rates (eg fertility) to derive a national rate, and therefore a model operating at different geographic levels (but using rates) will produce different results for the different geographic levels.
+"
+"Notes 2","National projections can be found here:
+http://www.ons.gov.uk/ons/rel/npp/national-population-projections/2012-based-reference-volume--series-pp2/index.html.
+
+"
+"Keywords","Population projections; growth"
