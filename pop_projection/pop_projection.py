@@ -48,7 +48,7 @@ class PopProjection():
 
     decade_summary = True # Whether to print results every decade
 
-    constrain_to_national=True # Whether or not to constrain to national projections
+    constrain_to_national=False # Whether or not to constrain to national projections
 
     # Indicate where to look for non-baseline (scenario) data. (Not used as I no
     # longer try to constrain to national projections when running scenarios).
@@ -1023,7 +1023,7 @@ class PopProjection():
                 )
 
             a = "00DA"
-            dir= "../../results/"+ProjectionComponent.scenario[4]+"/"
+            dir= "../results/"+ProjectionComponent.scenario[4]+"/"
             prm_dir = dir+"prm/" # Directory for PRM-formatted tables
             pyramid_dir=dir # (No new dir if not printing them every iteration)
             try:
@@ -1144,7 +1144,7 @@ if __name__ == '__main__':
 
     # Can optionally set the scenario as a command line argument (otherwise
     # it is hard coded in the PopProjection class).
-    scenario=None
+    scenario= "a"
     if len(sys.argv)==2:
         scenario=sys.argv[1]
         print "Running scenario:",scenario
