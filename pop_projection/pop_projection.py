@@ -1144,7 +1144,7 @@ if __name__ == '__main__':
 
     # Can optionally set the scenario as a command line argument (otherwise
     # it is hard coded in the PopProjection class).
-    scenario= "h"
+    scenario=None
     if len(sys.argv)==2:
         scenario=sys.argv[1]
         print "Running scenario:",scenario
