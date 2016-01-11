@@ -104,7 +104,7 @@ class PopProjection():
         self.__mig = mig
 
         self.start_year = 6 # Need to start from sixth year because 5 previous years data required for projection
-        self.end_year = 103
+        self.end_year = 93
 
         self.populations_male = {} # Lists of projected populations, one for each year (key is subnational area)
         self.populations_female = {} # Lists of projected populations, one for each year (key is subnational area)
