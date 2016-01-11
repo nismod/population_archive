@@ -42,17 +42,17 @@ class PopProjection():
 
     partial_subnat = False # Use the partial sub-national file (for debugging)
 
-    pop_pyramids = False # Whether or not to print population pyramids at every iteration
+    pop_pyramids = True # Whether or not to print population pyramids at every iteration
     pyramid_area = "NATIONAL" # Area to draw pyramids for (None means do all areas, NATIONAL means do a single national one.)
-    prm_output=True # Whether or not to make prm-formatted output data
+    prm_output=False # Whether or not to make prm-formatted output data
 
-    decade_summary = True # Whether to print results every decade
+    decade_summary = False # Whether to print results every decade
 
     constrain_to_national=False # Whether or not to constrain to national projections
 
     # Indicate where to look for non-baseline (scenario) data. (Not used as I no
     # longer try to constrain to national projections when running scenarios).
-    base_dir = "../data/baseline_data/"
+    base_dir = "../../data/baseline_data/"
     
     __debug = True
     __debug_age = False # Debug the population ageing process
@@ -104,7 +104,7 @@ class PopProjection():
         self.__mig = mig
 
         self.start_year = 6 # Need to start from sixth year because 5 previous years data required for projection
-        self.end_year = 93 #changed from 103 @Yue
+        self.end_year = 103
 
         self.populations_male = {} # Lists of projected populations, one for each year (key is subnational area)
         self.populations_female = {} # Lists of projected populations, one for each year (key is subnational area)
@@ -369,7 +369,7 @@ class PopProjection():
         # First thing to write are the headers. First header is year (three
         # columns for each year: pop, males, females)
         s+="Region,"
-        year_txt = [str(y) for y in range(2008, 2008+self.end_year)] # String years
+        year_txt = [str(y) for y in range(2004, 2004+self.end_year)] # String years
         for year in year_txt:
             if print_sexes:
                 s+=(year+","+year+","+year+",")
@@ -986,8 +986,8 @@ class PopProjection():
 
 
             # Count total expected national population for each year
-            j=year # (index into national data - will start some years before projection starts)
-            for people_m, people_f in zip(self.__nat_pops_men_scenario[j], self.__nat_pops_women_scenario[j]):            
+            j=year# (index into national data - will start some years before projection starts)
+            for people_m, people_f in zip(self.__nat_pops_men_scenario[j], self.__nat_pops_women_scenario[j]):
                 expected_pop+=(people_m+people_f)
             #print "EXPECTED A", year, expected_pop
             
@@ -1023,7 +1023,7 @@ class PopProjection():
                 )
 
             a = "00DA"
-            dir= "../results/"+ProjectionComponent.scenario[4]+"/"
+            dir= "../../results/"+ProjectionComponent.scenario[4]+"/"
             prm_dir = dir+"prm/" # Directory for PRM-formatted tables
             pyramid_dir=dir # (No new dir if not printing them every iteration)
             try:
@@ -1059,8 +1059,8 @@ class PopProjection():
                 print "Writing PRM file"
                 prm = PRMConverter(self.populations_male, self.populations_female, self.populations_male_base, self.populations_female_base)
                 prm_filename = prm_dir+"prm_data"
-                prm.make_prm_table(prm_filename, year_count, select_areas=None)
-                #prm.make_prm_table(prm_filename, year_count, select_areas=[a]) # Just Leeds (or whatever 'a' is above)
+                #prm.make_prm_table(prm_filename, year_count, select_areas=None)
+                prm.make_prm_table(prm_filename, year_count, select_areas=[a]) # Just Leeds (or whatever 'a' is above)
 
             # Occasionally write some info/results
             if (PopProjection.decade_summary and year%10==0):
@@ -1078,7 +1078,7 @@ class PopProjection():
                 self.summary_table(file=dir+"summary_table_"+ProjectionComponent.scenario[4]+"_disaggregate"+str(year)+".csv", print_sexes=True, aggregate=False)
 
                 # Make some graphs of components of change
-#                self.scenario_residuals.cc_tables((dir+"cc.csv"), self.start_year, self.__nat_cc_m, self.__nat_cc_f)
+                self.scenario_residuals.cc_tables((dir+"cc.csv"), self.start_year, self.__nat_cc_m, self.__nat_cc_f)
 
 
             # Free some memory now the old populations aren't required (I don't think
@@ -1095,7 +1095,7 @@ class PopProjection():
         self.scenario_residuals.residual_trends(a, dir)
             
         # Make some graphs of components of change
-#        self.scenario_residuals.cc_tables((dir+"cc.csv"), self.start_year, self.__nat_cc_m, self.__nat_cc_f)
+        self.scenario_residuals.cc_tables((dir+"cc.csv"), self.start_year, self.__nat_cc_m, self.__nat_cc_f)
 
         # Make a graph of national residuals (difference between projected populations and ONS baseline data)
         self.scenario_residuals.residual_graph((dir+"total_residuals"), self.start_year, self.populations_male, self.populations_female, self.__nat_pops_men, self.__nat_pops_women)
@@ -1144,7 +1144,7 @@ if __name__ == '__main__':
 
     # Can optionally set the scenario as a command line argument (otherwise
     # it is hard coded in the PopProjection class).
-    scenario= "h"
+    scenario=None
     if len(sys.argv)==2:
         scenario=sys.argv[1]
         print "Running scenario:",scenario
