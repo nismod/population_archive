@@ -28,7 +28,7 @@ class DataReading():
             print DataReading.__national_pop_header
             return False
         # Read the file into memory to make it easier to parse - rows are
-        # years (2008-2037) and columns are age groups
+        # years (2008-2033) and columns are age groups
         matrix = []
         for line in file:
             line_split = line.strip().split(',')
