@@ -296,7 +296,7 @@ class Residuals():
 
 
 
-#    def cc_tables(self, file, start_year, cc_m, cc_f):
+    def cc_tables(self, file, start_year, cc_m, cc_f):
         """Generate graphs of expected and predicted components of change.
         Pass in the expected components of change info and the year that the
         projection started (so that the correct year cc data is used).
@@ -305,23 +305,23 @@ class Residuals():
         StartPop, Births, Deaths, Natural change, Migration, Total change, EndPop
         """
 
-#        print "Writing components of change data to",file
+        print "Writing components of change data to",file
 
-#        text = [] # Data (table) to write
-#        text.append("Year,"\
-#            "BirthMProj,BirthFProj,BirthMExp,BirthFExp,"\
-#            "DeathMProj,DeathFProj,DeathMExp,DeathFExp,"\
-#            "MigMProj,MigFProj,MigMExp,MigFExp"\
-#            "\n")
-#        for i in range(len(self.births_f)):
-#            j=i+start_year # (index into cc data)
-#            self._append(text,i,",",\
-#                self.births_m[i],",",self.births_f[i],",",cc_m[j][1],",",cc_f[j][1],",",\
-#                self.deaths_m[i],",",self.deaths_f[i],",",cc_m[j][2],",",cc_f[j][2],",",\
-#                self.mig_m[i],",",self.mig_f[i],",",cc_m[j][4],",",cc_f[j][4],"\n")
+        text = [] # Data (table) to write
+        text.append("Year,"\
+            "BirthMProj,BirthFProj,BirthMExp,BirthFExp,"\
+            "DeathMProj,DeathFProj,DeathMExp,DeathFExp,"\
+            "MigMProj,MigFProj,MigMExp,MigFExp"\
+            "\n")
+        for i in range(len(self.births_f)):
+            j= i+start_year # (index into cc data)
+            self._append(text,i,",",\
+                self.births_m[i],",",self.births_f[i],",",cc_m[j][1],",",cc_f[j][1],",",\
+                self.deaths_m[i],",",self.deaths_f[i],",",cc_m[j][2],",",cc_f[j][2],",",\
+                self.mig_m[i],",",self.mig_f[i],",",cc_m[j][4],",",cc_f[j][4],"\n")
 
-#        with open(file,'w') as f:
-#            f.write(''.join(text))
+        with open(file,'w') as f:
+            f.write(''.join(text))
 
 
     def _append(self,list,*items):
