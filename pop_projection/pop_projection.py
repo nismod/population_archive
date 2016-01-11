@@ -104,7 +104,7 @@ class PopProjection():
         self.__mig = mig
 
         self.start_year = 6 # Need to start from sixth year because 5 previous years data required for projection
-        self.end_year = 93
+        self.end_year = 93 #changed from 103 @Yue
 
         self.populations_male = {} # Lists of projected populations, one for each year (key is subnational area)
         self.populations_female = {} # Lists of projected populations, one for each year (key is subnational area)
@@ -986,8 +986,8 @@ class PopProjection():
 
 
             # Count total expected national population for each year
-            j=year# (index into national data - will start some years before projection starts)
-            for people_m, people_f in zip(self.__nat_pops_men_scenario[j], self.__nat_pops_women_scenario[j]):
+            j=year # (index into national data - will start some years before projection starts)
+            for people_m, people_f in zip(self.__nat_pops_men_scenario[j], self.__nat_pops_women_scenario[j]):            
                 expected_pop+=(people_m+people_f)
             #print "EXPECTED A", year, expected_pop
             
@@ -1144,7 +1144,7 @@ if __name__ == '__main__':
 
     # Can optionally set the scenario as a command line argument (otherwise
     # it is hard coded in the PopProjection class).
-    scenario= "a"
+    scenario= "h"
     if len(sys.argv)==2:
         scenario=sys.argv[1]
         print "Running scenario:",scenario
