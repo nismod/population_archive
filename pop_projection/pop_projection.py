@@ -1078,7 +1078,7 @@ class PopProjection():
                 self.summary_table(file=dir+"summary_table_"+ProjectionComponent.scenario[4]+"_disaggregate"+str(year)+".csv", print_sexes=True, aggregate=False)
 
                 # Make some graphs of components of change
-                self.scenario_residuals.cc_tables((dir+"cc.csv"), self.start_year, self.__nat_cc_m, self.__nat_cc_f)
+#                self.scenario_residuals.cc_tables((dir+"cc.csv"), self.start_year, self.__nat_cc_m, self.__nat_cc_f)
 
 
             # Free some memory now the old populations aren't required (I don't think
@@ -1095,7 +1095,7 @@ class PopProjection():
         self.scenario_residuals.residual_trends(a, dir)
             
         # Make some graphs of components of change
-        self.scenario_residuals.cc_tables((dir+"cc.csv"), self.start_year, self.__nat_cc_m, self.__nat_cc_f)
+#        self.scenario_residuals.cc_tables((dir+"cc.csv"), self.start_year, self.__nat_cc_m, self.__nat_cc_f)
 
         # Make a graph of national residuals (difference between projected populations and ONS baseline data)
         self.scenario_residuals.residual_graph((dir+"total_residuals"), self.start_year, self.populations_male, self.populations_female, self.__nat_pops_men, self.__nat_pops_women)
