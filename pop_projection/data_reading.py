@@ -9,9 +9,9 @@ from errors import ProjectionError
 
 class DataReading():
 
-    __national_pop_header = """Ages,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050,2051,2052,2053,2054,2055,2056,2057,2058,2059,2060,2061,2062,2063,2064,2065,2066,2067,2068,2069,2070,2071,2072,2073,2074,2075,2076,2077,2078,2079,2080,2081,2082,2083,2084,2085,2086,2087,2088,2089,2090,2091,2092,2093,2094,2095,2096,2097,2098,2099,2100"""
-    __subnational_header = """CODE,AREA,AGE GROUP,2004Est,2005Est,2006Est,2007Est,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033"""
-    __fert_mort_headers = """Age,2004Est,2005Est,2006Est,2007Est,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050,2051,2052,2053,2054,2055,2056,2057,2058,2059,2060,2061,2062,2063,2064,2065,2066,2067,2068,2069,2070,2071,2072,2073,2074,2075,2076,2077,2078,2079,2080,2081,2082,2083,2084,2085,2086,2087,2088,2089,2090,2091,2092,2093,2094,2095,2096,2097,2098,2099,2100"""
+    __national_pop_header = """Ages,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050,2051,2052,2053,2054,2055,2056,2057,2058,2059,2060,2061,2062,2063,2064,2065,2066,2067,2068,2069,2070,2071,2072,2073,2074,2075,2076,2077,2078,2079,2080,2081,2082,2083,2084,2085,2086,2087,2088,2089,2090,2091,2092,2093,2094,2095,2096,2097,2098,2099,2100"""
+    __subnational_header = """CODE,AREA,AGE GROUP,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037"""
+    __fert_mort_headers = """Age,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050,2051,2052,2053,2054,2055,2056,2057,2058,2059,2060,2061,2062,2063,2064,2065,2066,2067,2068,2069,2070,2071,2072,2073,2074,2075,2076,2077,2078,2079,2080,2081,2082,2083,2084,2085,2086,2087,2088,2089,2090,2091,2092,2093,2094,2095,2096,2097,2098,2099,2100"""
 
     __debug_cc = False
 
@@ -99,7 +99,7 @@ class DataReading():
         assert len(matrix) == 93, "Should be 93 age groups in the national popualtion"+\
             "matrix, not"+str(len(matrix))
         for i, list in enumerate(matrix):
-            assert len(list)==97, "Should be 97 years in national matrix line "+\
+            assert len(list)==93, "Should be 97 years in national matrix line "+\
                 str(i)+", not "+str(len(list))
 
     @classmethod
@@ -209,7 +209,7 @@ class DataReading():
                 list.append(rates)
 
             # Check matrix columns: num years (rows will differ depending on file)
-            if len(list)!=97:
+            if len(list)!=93:
                 raise ProjectionError("Input fert/mort matrix for "+file+\
                     " does not have the correct number of columns: "+str(len(list)))
 
@@ -231,7 +231,7 @@ class DataReading():
                     temparray.append(float(s.strip()))
                 array.append(temparray)
                 linecount+=1
-            assert linecount==97, \
+            assert linecount==85, \
                 "There should be 97 lines in the cc file (not including the header). Not "+str(linecount)
         # Quick check that the numbers add up correctly
 
@@ -255,7 +255,7 @@ class DataReading():
 
         # NOTE: old projections (to 2032) use 79 columns (years 2004 - 2083).
         # Now, for 2100 projections use 96 columns
-        cols = 96
+        cols = 93
 
         # Fert matrix is 32 rows (age groups 15-46 inclusive) by 96 columns (years 2004 - 2100)
         fert_matrix = [[1 for i in range(32)] for j in range(cols)]
@@ -303,7 +303,7 @@ class DataReading():
             for line in f:
                 linesplit = line.strip().split(',')
                 assert len(linesplit)==33, \
-                    "There should be 33 columns in the subnational components of change file"
+                "There should be 33 columns in the subnational components of change file instead of" +str(linesplit)
                 new_area = linesplit[0]
 
                 if new_area != area: # Area has changed, do some stuff
