@@ -99,7 +99,7 @@ class DataReading():
         assert len(matrix) == 93, "Should be 93 age groups in the national popualtion"+\
             "matrix, not"+str(len(matrix))
         for i, list in enumerate(matrix):
-            assert len(list)==93, "Should be 97 years in national matrix line "+\
+            assert len(list)==93, "Should be 93 years in national matrix line "+\
                 str(i)+", not "+str(len(list))
 
     @classmethod
@@ -231,8 +231,8 @@ class DataReading():
                     temparray.append(float(s.strip()))
                 array.append(temparray)
                 linecount+=1
-            assert linecount==85, \
-                "There should be 97 lines in the cc file (not including the header). Not "+str(linecount)
+            assert linecount==93, \
+                "There should be 93 lines in the cc file (not including the header). Not "+str(linecount)
         # Quick check that the numbers add up correctly
 
         for cc in array: # (note conversion to string to avoid rounding inprecision)
@@ -254,7 +254,7 @@ class DataReading():
         national populations and is required to get the area keys."""
 
         # NOTE: old projections (to 2032) use 79 columns (years 2004 - 2083).
-        # Now, for 2100 projections use 96 columns
+        # Now, for 2100 projections use 93 columns
         cols = 93
 
         # Fert matrix is 32 rows (age groups 15-46 inclusive) by 96 columns (years 2004 - 2100)
