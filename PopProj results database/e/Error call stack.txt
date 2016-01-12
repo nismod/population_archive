@@ -1,0 +1,300 @@
+6UK
+Writing PRM file
+        Finished year 72 in 512.28 sec
+Projecting year 67 ( 73 )
+Warning, mortality male scaling factor for area 19UD has become negative. Settin
+g to 0. 0.0
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0EH
+Warning, migration is attempting to reduce a population to less than 0 in area 4
+1UK
+Warning, migration is attempting to reduce a population to less than 0 in area 3
+4UH
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0CU
+Writing PRM file
+        Finished year 73 in 519.77 sec
+Projecting year 68 ( 74 )
+Warning, fertility male scaling factor for area 18UG has become negative. Settin
+g to 0. 0.0
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0EU
+Warning, migration is attempting to reduce a population to less than 0 in area 4
+4UB
+Warning, migration is attempting to reduce a population to less than 0 in area 2
+3UE
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0CR
+Writing PRM file
+        Finished year 74 in 526.29 sec
+Projecting year 69 ( 75 )
+Warning, mortality female scaling factor for area 36UB has become negative. Sett
+ing to 0. 0.0
+Writing PRM file
+        Finished year 75 in 533.61 sec
+Projecting year 70 ( 76 )
+Warning, mortality female scaling factor for area 19UE has become negative. Sett
+ing to 0. 0.0
+Warning, mortality male scaling factor for area 18UB has become negative. Settin
+g to 0. 0.0
+Warning, mortality male scaling factor for area 47UC has become negative. Settin
+g to 0. 0.0
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0MD
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0AZ
+Writing PRM file
+        Finished year 76 in 540.23 sec
+Projecting year 71 ( 77 )
+Warning, fertility male scaling factor for area 34UD has become negative. Settin
+g to 0. 0.0
+Warning, mortality female scaling factor for area 19UH has become negative. Sett
+ing to 0. 0.0
+Warning, mortality female scaling factor for area 11UE has become negative. Sett
+ing to 0. 0.0
+Warning, migration is attempting to reduce a population to less than 0 in area 4
+7UE
+Writing PRM file
+        Finished year 77 in 546.75 sec
+Projecting year 72 ( 78 )
+Warning, fertility female scaling factor for area 24UC has become negative. Sett
+ing to 0. 0.0
+Warning, mortality male scaling factor for area 24UJ has become negative. Settin
+g to 0. 0.0
+Writing PRM file
+        Finished year 78 in 554.17 sec
+Projecting year 73 ( 79 )
+Warning, mortality male scaling factor for area 23UC has become negative. Settin
+g to 0. 0.0
+Warning, mortality male scaling factor for area 45UD has become negative. Settin
+g to 0. 0.0
+Warning, mortality male scaling factor for area 33UF has become negative. Settin
+g to 0. 0.0
+Warning, mortality male scaling factor for area 22UQ has become negative. Settin
+g to 0. 0.0
+Writing PRM file
+        Finished year 79 in 563.25 sec
+Projecting year 74 ( 80 )
+Warning, fertility female scaling factor for area 43UJ has become negative. Sett
+ing to 0. 0.0
+Warning, mortality female scaling factor for area 19UC has become negative. Sett
+ing to 0. 0.0
+Warning, mortality male scaling factor for area 45UB has become negative. Settin
+g to 0. 0.0
+Warning, mortality male scaling factor for area 45UC has become negative. Settin
+g to 0. 0.0
+Warning, mortality male scaling factor for area 21UG has become negative. Settin
+g to 0. 0.0
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0MC
+Warning, migration is attempting to reduce a population to less than 0 in area 4
+1UE
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0CQ
+Writing PRM file
+Will write residual graph to file ../results/e/total_residuals.pdf and data to .
+./results/e/total_residuals.csv
+Writing summary table ../results/e/summary_table_e_persons80.csv
+Writing summary table ../results/e/summary_table_e_disaggregate80.csv
+        Finished year 80 in 17010.30 sec
+Projecting year 75 ( 81 )
+Warning, mortality male scaling factor for area 22UD has become negative. Settin
+g to 0. 0.0
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0AS
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0AB
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0AK
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0CH
+Writing PRM file
+        Finished year 81 in 568.74 sec
+Projecting year 76 ( 82 )
+Warning, mortality male scaling factor for area 42UB has become negative. Settin
+g to 0. 0.0
+Warning, mortality female scaling factor for area 21UF has become negative. Sett
+ing to 0. 0.0
+Warning, mortality female scaling factor for area 21UC has become negative. Sett
+ing to 0. 0.0
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Writing PRM file
+        Finished year 82 in 576.36 sec
+Projecting year 77 ( 83 )
+Warning, mortality male scaling factor for area 21UH has become negative. Settin
+g to 0. 0.0
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0AH
+Writing PRM file
+        Finished year 83 in 581.52 sec
+Projecting year 78 ( 84 )
+Warning, fertility male scaling factor for area 16UC has become negative. Settin
+g to 0. 0.0
+Warning, mortality female scaling factor for area 24UP has become negative. Sett
+ing to 0. 0.0
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Warning, migration is attempting to reduce a population to less than 0 in area 3
+7UD
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0HG
+Writing PRM file
+        Finished year 84 in 588.22 sec
+Projecting year 79 ( 85 )
+Warning, mortality male scaling factor for area 42UE has become negative. Settin
+g to 0. 0.0
+Warning, mortality female scaling factor for area 18UL has become negative. Sett
+ing to 0. 0.0
+Warning, mortality male scaling factor for area 12UC has become negative. Settin
+g to 0. 0.0
+Warning, mortality female scaling factor for area 44UE has become negative. Sett
+ing to 0. 0.0
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Warning, mortality female scaling factor for area 22UJ has become negative. Sett
+ing to 0. 0.0
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0FK
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0EJ
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0DB
+Writing PRM file
+        Finished year 85 in 594.72 sec
+Projecting year 80 ( 86 )
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Warning, migration is attempting to reduce a population to less than 0 in area 1
+7UD
+Warning, migration is attempting to reduce a population to less than 0 in area 3
+0UM
+Writing PRM file
+        Finished year 86 in 600.07 sec
+Projecting year 81 ( 87 )
+Warning, fertility male scaling factor for area 21UH has become negative. Settin
+g to 0. 0.0
+Warning, mortality male scaling factor for area 24UC has become negative. Settin
+g to 0. 0.0
+Warning, mortality male scaling factor for area 33UC has become negative. Settin
+g to 0. 0.0
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Warning, mortality male scaling factor for area 43UL has become negative. Settin
+g to 0. 0.0
+Writing PRM file
+        Finished year 87 in 607.48 sec
+Projecting year 82 ( 88 )
+Warning, fertility male scaling factor for area 43UB has become negative. Settin
+g to 0. 0.0
+Warning, mortality female scaling factor for area 24UG has become negative. Sett
+ing to 0. 0.0
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Warning, mortality female scaling factor for area 40UE has become negative. Sett
+ing to 0. 0.0
+Writing PRM file
+        Finished year 88 in 614.34 sec
+Projecting year 83 ( 89 )
+Warning, fertility female scaling factor for area 40UB has become negative. Sett
+ing to 0. 0.0
+Warning, mortality female scaling factor for area 42UG has become negative. Sett
+ing to 0. 0.0
+Warning, mortality male scaling factor for area 33UH has become negative. Settin
+g to 0. 0.0
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Warning, mortality female scaling factor for area 43UE has become negative. Sett
+ing to 0. 0.0
+Writing PRM file
+        Finished year 89 in 621.31 sec
+Projecting year 84 ( 90 )
+Warning, fertility male scaling factor for area 47UF has become negative. Settin
+g to 0. 0.0
+Warning, fertility male scaling factor for area 18UB has become negative. Settin
+g to 0. 0.0
+Warning, mortality male scaling factor for area 43UJ has become negative. Settin
+g to 0. 0.0
+Warning, mortality male scaling factor for area 24UE has become negative. Settin
+g to 0. 0.0
+Warning, mortality male scaling factor for area 12UG has become negative. Settin
+g to 0. 0.0
+Warning, mortality male scaling factor for area 33UB has become negative. Settin
+g to 0. 0.0
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Warning, mortality female scaling factor for area 26UH has become negative. Sett
+ing to 0. 0.0
+Warning, migration is attempting to reduce a population to less than 0 in area 0
+0BB
+Writing PRM file
+Will write residual graph to file ../results/e/total_residuals.pdf and data to .
+./results/e/total_residuals.csv
+Writing summary table ../results/e/summary_table_e_persons90.csv
+Writing summary table ../results/e/summary_table_e_disaggregate90.csv
+        Finished year 90 in 21502.83 sec
+Projecting year 85 ( 91 )
+Warning, mortality male scaling factor for area 40UB has become negative. Settin
+g to 0. 0.0
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Warning, mortality female scaling factor for area 40UD has become negative. Sett
+ing to 0. 0.0
+Writing PRM file
+        Finished year 91 in 643.34 sec
+Projecting year 86 ( 92 )
+Warning, mortality female scaling factor for area 24UN has become negative. Sett
+ing to 0. 0.0
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Warning, migration is attempting to reduce a population to less than 0 in area 3
+0UD
+Writing PRM file
+        Finished year 92 in 650.84 sec
+Projecting year 87 ( 93 )
+Warning, fertility female scaling factor for area 42UE has become negative. Sett
+ing to 0. 0.0
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Mortality warning - attempt to decrease popualation to less than 0 for age 92 in
+ area 00AM
+Warning, mortality female scaling factor for area 22UK has become negative. Sett
+ing to 0. 0.0
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensio
+ns\Microsoft\Python Tools for Visual Studio\2.1\visualstudio_py_util.py", line 1
+06, in exec_file
+    exec_code(code, file, global_variables)
+  File "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensio
+ns\Microsoft\Python Tools for Visual Studio\2.1\visualstudio_py_util.py", line 8
+2, in exec_code
+    exec(code_obj, global_variables)
+  File "D:\Data\YC\PopProjection\pop_projection\pop_projection.py", line 1158, i
+n <module>
+    p.run_projection()
+  File "D:\Data\YC\PopProjection\pop_projection\pop_projection.py", line 990, in
+ run_projection
+    for people_m, people_f in zip(self.__nat_pops_men_scenario[j], self.__nat_po
+ps_women_scenario[j]):
+IndexError: list index out of range
+Press any key to continue . . .
