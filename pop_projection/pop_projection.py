@@ -48,7 +48,7 @@ class PopProjection():
 
     decade_summary = True # Whether to print results every decade
 
-    constrain_to_national=False # Whether or not to constrain to national projections
+    constrain_to_national=True # Whether or not to constrain to national projections
 
     # Indicate where to look for non-baseline (scenario) data. (Not used as I no
     # longer try to constrain to national projections when running scenarios).
@@ -104,7 +104,7 @@ class PopProjection():
         self.__mig = mig
 
         self.start_year = 6 # Need to start from sixth year because 5 previous years data required for projection
-        self.end_year = 93 #changed from 103 @Yue
+        self.end_year = 103
 
         self.populations_male = {} # Lists of projected populations, one for each year (key is subnational area)
         self.populations_female = {} # Lists of projected populations, one for each year (key is subnational area)
