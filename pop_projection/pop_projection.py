@@ -1144,15 +1144,17 @@ if __name__ == '__main__':
 
     # Can optionally set the scenario as a command line argument (otherwise
     # it is hard coded in the PopProjection class).
-    scenario='b'
-    if len(sys.argv)==2:
-        scenario=sys.argv[1]
-        print "Running scenario:",scenario
-    else:
-        print "Will use the hard-coded scenario"
+    scenario_list = ['a','b','c','d','e','f','g','h']
+    for scenario_value in scenario_list:
+        scenario=scenario_value
+        if len(sys.argv)==2:
+            scenario=sys.argv[1]
+            print "Running scenario:",scenario
+        else:
+            print "Will use the hard-coded scenario"
 
-    p = PopProjection(fert, mort, mig)
-    if scenario != None:
-        p.set_scenario(scenario)
+        p = PopProjection(fert, mort, mig)
+        if scenario != None:
+            p.set_scenario(scenario)
         
-    p.run_projection()
+        p.run_projection()
