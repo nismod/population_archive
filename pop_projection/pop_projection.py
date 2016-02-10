@@ -72,7 +72,7 @@ class PopProjection():
         "b":[0.95, 0.965, 1.33, "baseline", "b"], \
         "c":[1.15, 0.995, 1.33, "baseline", "c"], \
         "d":[0.95, 0.985, 2.65, "baseline", "d"], \
-        "e":[1.05, 1.015, -0.65, "baseline", "e"], \
+        "e":[1.05, 1.015, 0.00, "baseline", "e"], \
         "f":[0.85, 1.005, 0.67, "baseline", "f"], \
         "g":[1.05, 1.035, 0.67, "baseline", "g"], \
         "h":[0.85, 1.025, 1.99, "baseline", "h"] \
@@ -1146,7 +1146,7 @@ if __name__ == '__main__':
     # it is hard coded in the PopProjection class).
 #    scenario_list = ['a','b','c','d','e','f','g','h']
 #    for scenario_value in scenario_list:
-    scenario='b'
+    scenario='e'
     if len(sys.argv)==2:
         scenario=sys.argv[1]
         print "Running scenario:",scenario
