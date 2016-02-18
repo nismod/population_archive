@@ -66,33 +66,32 @@ class PopProjection():
     # for the high and low anyway). Using baseline data doesn't affect model but allows for making graphs comparing scenario to baseline).
     scenarios = { \
         "baseline":[1.0, 1.0, 1.0, "baseline", "baseline"], \
-        "high":[1.108696, 0.99, 1.33, "high", "high"], \
-        "low":[0.891304, 1.01, 0.67, "low", "low"], \
-        "a":[1.15, 0.975, 0.01, "baseline", "a"], \
-        "b":[0.95, 0.965, 1.33, "baseline", "b"], \
-        "c":[1.15, 0.995, 1.33, "baseline", "c"], \
-        "d":[0.95, 0.985, 2.65, "baseline", "d"], \
-        "e":[1.05, 1.015, 0.00, "baseline", "e"], \
-        "f":[0.85, 1.005, 0.67, "baseline", "f"], \
-        "g":[1.05, 1.035, 0.67, "baseline", "g"], \
-        "h":[0.85, 1.025, 1.99, "baseline", "h"] \
+        "high":[1.108696, 0.988, 1.36, "high", "high"], \
+        "low":[0.891304, 1.000, 0.640, "low", "low"], \
+        "a":[1.150, 0.970, -0.080, "baseline", "a"], \
+        "b":[0.950, 0.958, 1.360, "baseline", "b"], \
+        "c":[1.150, 0.994, 1.360, "baseline", "c"], \
+        "d":[0.950, 0.982, 2.800, "baseline", "d"], \
+        "e":[1.050, 1.018, 0.000, "baseline", "e"], \
+        "f":[0.850, 1.006, 0.640, "baseline", "f"], \
+        "g":[1.050, 1.042, 0.640, "baseline", "g"], \
+        "h":[0.850, 1.030, 2.080, "baseline", "h"] \
     }
 
-    # OLD SCENARIOS
+# 2008 SCENARIOS
 #    scenarios = { \
 #        "baseline":[1.0, 1.0, 1.0, "baseline", "baseline"], \
 #        "high":[1.108696, 0.99, 1.33, "high", "high"], \
 #        "low":[0.891304, 1.01, 0.67, "low", "low"], \
-#        "a":[0.95, 0.97, 0.01, "baseline", "a"], \
-#        "b":[1.15, 0.97, 1.33, "baseline", "b"], \
-#        "c":[0.95, 0.99, 1.33, "baseline", "c"], \
-#        "d":[1.15, 0.99, 2.65, "baseline", "d"], \
-#        "e":[0.85, 1.01, -0.65, "baseline", "e"], \
-#        "f":[1.05, 1.005, 0.67, "baseline", "f"], \
-#        "g":[1.15, 1.03, 0.67, "baseline", "g"], \
-#        "h":[1.05, 1.03, 1.99, "baseline", "h"] \
+#        "a":[1.15, 0.975, 0.01, "baseline", "a"], \
+#        "b":[0.95, 0.965, 1.33, "baseline", "b"], \
+#        "c":[1.15, 0.995, 1.33, "baseline", "c"], \
+#        "d":[0.95, 0.985, 2.65, "baseline", "d"], \
+#        "e":[1.05, 1.015, 0.01, "baseline", "e"], \
+#        "f":[0.85, 1.005, 0.67, "baseline", "f"], \
+#        "g":[1.05, 1.035, 0.67, "baseline", "g"], \
+#        "h":[0.85, 1.025, 1.99, "baseline", "h"] \
 #    }
-
 
     # The main scenario to run (this will be overridden if scenario is set as a command-line argument).
     ProjectionComponent.scenario = scenarios["baseline"]
@@ -1146,7 +1145,7 @@ if __name__ == '__main__':
     # it is hard coded in the PopProjection class).
 #    scenario_list = ['a','b','c','d','e','f','g','h']
 #    for scenario_value in scenario_list:
-    scenario='e'
+    scenario='a'
     if len(sys.argv)==2:
         scenario=sys.argv[1]
         print "Running scenario:",scenario
