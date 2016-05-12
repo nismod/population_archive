@@ -1145,7 +1145,7 @@ if __name__ == '__main__':
     # it is hard coded in the PopProjection class).
 #    scenario_list = ['a','b','c','d','e','f','g','h']
 #    for scenario_value in scenario_list:
-    scenario='a'
+    scenario='e'
     if len(sys.argv)==2:
         scenario=sys.argv[1]
         print "Running scenario:",scenario
