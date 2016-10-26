@@ -1,5 +1,5 @@
-# PopProjection
+# Population and Demographics Projection
 
-PopProjection is a Python population model based on ONS methodology that
-performs a sub-national (regional) population projection.
+Population and demographics projection module, developed for 
+ITRC/MISTRAL.
 
