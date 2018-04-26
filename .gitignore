@@ -336,3 +336,8 @@ ModelManifest.xml
 
 # cache
 .cache/
+
+# Working data
+raw_data/*
+data/*
+
