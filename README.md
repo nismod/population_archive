@@ -6,7 +6,7 @@ ITRC/MISTRAL.
 ONS produce national (UK) and country-level population projections with variants
 as listed in the following table.
 
-*E*ngland *S*cotland *W*ales and *N*orthern Ireland statistics authorities
+**E**ngland **S**cotland **W**ales and **N**orthern Ireland statistics authorities
 separately produce sub-national population projections (at LAD or LAD-equivalent
 level) for the variants as indicated by an `x` in the table.
 
